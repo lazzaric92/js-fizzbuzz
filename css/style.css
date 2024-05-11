@@ -4,16 +4,20 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+    background-color: #030333;
+}
+
 .container {
-    width: 99%;
-    margin: 0 auto;
+    padding: 1rem .5rem;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 li {
@@ -22,19 +26,33 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #030333;
+    border-radius: 50%;
+    margin: .25rem;
 }
 
 .fizz {
-    background-color: blueviolet;
-    color: white;
+    background-image: url(../img/fizz.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .buzz {
-    background-color: #57dfe3;
+    background-image: url(../img/buzz.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .fizzbuzz {
-    background-color: #9c1c51;
-    color: white;
+    background-image: url(../img/fizzbuzz.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.odd {
+    background-color: mistyrose;
+}
+
+.even {
+    background-color: #fb8df7;
 }

@@ -15,4 +15,6 @@ Scrivo un ciclo for con indice che va da 1 a 100 (incluso) e che ad ogni ciclo:
 
 
 In HTML creo un main con dentro un container e all'interno un ul nel quale appenderò dei li creati con js.
-A seconda dell'indice js appenderà una stringa ai li, inoltre aggiungerà le classi 'fizz', 'buzz' e 'fizzbuzz' ai relativi li.
+A seconda dell'indice js aggiungerà le classi 'fizz', 'buzz' e 'fizzbuzz'(all'interno delle quali ci sono delle immagini) ai relativi li, a tutti gli altri appenderà l'indice.
+
+Creo le classi 'odd' e 'even' per avere l'effetto scacchiera.
