@@ -14,5 +14,5 @@ Scrivo un ciclo for con indice che va da 1 a 100 (incluso) e che ad ogni ciclo:
         stampi l'indice.
 
 
-In HTML creo un main con dentro un container e all'interno un ul nel quale appenderò dei li con js.
+In HTML creo un main con dentro un container e all'interno un ul nel quale appenderò dei li creati con js.
 A seconda dell'indice js appenderà una stringa ai li, inoltre aggiungerà le classi 'fizz', 'buzz' e 'fizzbuzz' ai relativi li.
